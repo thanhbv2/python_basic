@@ -70,11 +70,7 @@ if 1 in nums:
 def hafl(e):
     return e/2
 
-print map(hafl, nums)
+map(hafl, nums)
 
-def soChan(e):
-    return e % 2 == 0
-
-print filter(soChan, nums)
 
 
